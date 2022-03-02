@@ -1,4 +1,4 @@
- *{
+  *{
     box-sizing: border-box;
 }
 
@@ -8,8 +8,18 @@
   body {
     margin: 0px;
     font-family: 'segoe ui';
+    color: white;
+font-size: 23px;
+background-color: #9457EB;
   }
-  
+  .header{
+    text-align: center;
+  }
+  .desc{
+    text-align: center;
+    width: 50%;
+  margin: 0 auto;
+  }
   .nav {
     height: 50px;
     width: 70%;
@@ -61,9 +71,19 @@
       width: 40%;
       margin: auto;
   }
+ 
+  .quote {
+    font-size: x-large;
+    font: bold;
+    font: expanded;
+    font-style: italic;
+    font-weight: bold;
+    line-height: normal;
+    font-family: inherit;
+  }
   img{
       width: 100%;
-  }
+        }
   .myButton {
 	box-shadow: 0px 10px 14px -7px #276873;
 	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
@@ -80,8 +100,8 @@
 	text-shadow:0px 1px 0px #3d768a;
 }
 .myButton:hover {
-	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
-	background-color:#408c99;
+	background:linear-gradient(to bottom, purple 5%, #599bb3 100%);
+	background-color:rgb(128, 51, 0);
 }
 .myButton:active {
 	position:relative;
@@ -143,4 +163,5 @@
         padding: 20px 0;
         margin: auto;
     }
+    
   }
